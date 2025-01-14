@@ -275,46 +275,101 @@
             </div>
         </div>
     </section>
-    <section class="news_bg">
-        <div class="container py-5 text-center ">
-            <h2 class="text-white">OUR LATEST NEWS</h2>
-            <div class="row justify-content-evenly mt-3">
-                <?php
-    require 'connection.php';
+            <section class="news_bg">
+            <div class="container py-5 text-center ">
+                <h2 class="text-white">OUR LATEST NEWS</h2>
+                <div class="row justify-content-evenly mt-3">
+                    <?php
+                    require 'connection.php';
 
-            // Create connection
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            $result = mysqli_query($conn, "SELECT * FROM news  ORDER BY date_posted DESC LIMIT 4");
-            $title_slicer = 0;
-            while($row = mysqli_fetch_assoc($result)) {
-              // dateArray = (month-date-year)
-              $dateArray = date_parse_from_format('Y-m-d', $row['date_posted']);
-              require 'datePosted.php';
+                    // Create connection
+                    $conn = new mysqli($servername, $username, $password, $dbname);
+                    $result = mysqli_query($conn, "SELECT * FROM news  ORDER BY date_posted DESC LIMIT 4");
+                    // $title_slicer = 0;
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        // dateArray = (month-date-year)
+                        $dateArray = date_parse_from_format('Y-m-d', $row['date_posted']);
+                        require 'datePosted.php';
 
-              echo '
+                        echo '
               <div class="col-12 col-md-3 p-2 g-5">
-              <img src="'.$row["news_image"].'" alt="news-image" class="news_image">    
+              <img src="' . $row["news_image"] . '" alt="news-image" class="news_image">    
 
                 <div class="card newsCardbody">
                   <div class="card-body text-start">
-                    <h5 "class="card-title" id="title'.$title_slicer.'" >'.$row["news_title"].'</h5>
-                    <p><i>'.$dateArray['month'].' '.$dateArray['day'].', '.$dateArray['year'].'</i></p>
+                    <h5 "class="card-title" id="title" >' . $row["news_title"] . '</h5>
+                    <p><i>' . $dateArray['month'] . ' ' . $dateArray['day'] . ', ' . $dateArray['year'] . '</i></p>
                     <div class="align-bottom">
-                        <a href="newscontent?id='.$row['id'].'" class="cardBtnReadmore">Read more</a>
+                        <a href="newscontent?id=' . $row['id'] . '" class="cardBtnReadmore">Read more</a>
                     </div>
                   </div>
                 </div>
               </div>
-              ';           
-              $title_slicer++;
-            }
-            mysqli_close($conn);
-        ?>
+              ';
+                    }
+                    mysqli_close($conn);
+                    ?>
+                </div>
+                <div class="mt-3">
+                    <a href="news?category=" class="btn_right">MORE NEWS</a>
+                </div>
             </div>
-            <div class="mt-3">
-                <a href="news?category=" class="btn_right">MORE NEWS</a>
-            </div>
-        </div>
+        </section>
+    
+    <section id="partners">
+       <div class="container text-center py-5">
+         <h2 class="display-5 mb-5">OUR PARTNERS</h2>
+         <div class="row justify-content-center gy-5">
+           <div class="col-12 col-sm-6 col-md-4 partners_logo">
+             <a href="https://dhvsu.edu.ph/" target="_blank"
+               ><img
+                 src="./images/DHVSU_LOGO.png"
+                 class="img-fluid"
+                 alt="partner logo"
+             /></a>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 partners_logo">
+             <a href="https://www.facebook.com/mrsp.pampanga" target="_blank"
+               ><img
+                 src="./images/MRSP_LOGO.png"
+                 class="img-fluid"
+                 alt="partner logo"
+             /></a>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 partners_logo">
+             <a href="https://psau.edu.ph/" target="_blank"
+               ><img
+                 src="./images/PSAU_LOGO.png"
+                 class="img-fluid"
+                 alt="partner logo"
+             /></a>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 partners_logo">
+             <a href="https://holycrosscollegepampanga.com/" target="_blank"
+               ><img
+                 src="./images/HCC_LOGO.png"
+                 class="img-fluid"
+                 alt="partner logo"
+             /></a>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 partners_logo">
+             <a href="https://www.auf.edu.ph/" target="_blank"
+               ><img
+                 src="./images/auf-logo.png"
+                 class="img-fluid"
+                 alt="partner logo"
+             /></a>
+           </div>
+           <div class="col-12 col-sm-6 col-md-4 partners_logo">
+             <a href="https://a2kgroup.co.uk/" target="_blank"
+               ><img
+                 src="./images/a2k-group-international.png"
+                 class="img-fluid"
+                 alt="partner logo"
+             /></a>
+           </div>
+         </div>
+      </div>
     </section>
 
     <!--CONTACT SECTION-->

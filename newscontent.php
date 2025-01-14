@@ -29,51 +29,58 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDE1RYV1SK"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-TDE1RYV1SK');
+    gtag('config', 'G-TDE1RYV1SK');
 </script>
-<body>
+
+<body >
 
     <!--HEADER-->
     <header id="navbar" class="navbar navbar-expand-lg navbar-light"></header>
 
     <!--MAIN-->
     <main>
-        <!--SECTION-->
-        <?php
+    <!--SECTION-->
+    <?php
     require 'connection.php';
-            $id = $_GET['id'];
-            // Create connection
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            // Retrieve the data using a join query
-            $result = mysqli_query($conn, "SELECT * FROM news WHERE id = '$id' ORDER BY date_posted DESC");
-            
-              // Display the data in a table
-            while($row = mysqli_fetch_assoc($result)) {
-                
-                // dateArray = (month-date-year)
-                $dateArray = date_parse_from_format('Y-m-d', $row['date_posted']);
+    $id = $_GET['id'];
+    
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    
+    // Retrieve the data using a join query
+    $result = mysqli_query($conn, "SELECT * FROM news WHERE id = '$id' ORDER BY date_posted DESC");
 
-                require 'datePosted.php';
-
-                echo '
-                <section class="container newsSection text-center pt-5">
-                <h1 class="fw-bold">'.$row['news_title'].'</h1>
-                    </section>
-                    <section class="container w-75">
-                        <p class="text-muted"><i> Posted on '.$dateArray['month'].' '.$dateArray['day'].', '.$dateArray['year'].'</i></p>
-                        <img src="'.$row['news_image'].'" class="ratio ratio-16x9" alt="image-news">
-                        <p class="fw-medium mt-2" style="text-indent:50px; text-align:justify;">'.$row['news_content'].'</p>
-                    </section>
-                    
-                ';
-            }
-            mysqli_close($conn);
+    // Display the data in a table
+    while ($row = mysqli_fetch_assoc($result)) {
+        // dateArray = (month-date-year)
+        $dateArray = date_parse_from_format('Y-m-d', $row['date_posted']);
+        
+        require 'datePosted.php';
         ?>
-    </main>
+        <section style="max-width:40rem" class="container newsSection text-center pt-5">
+            <h1 class="fw-bold "><?php echo $row['news_title']; ?></h1>
+        </section>
+        <section class="container">
+            <p style="max-width: 40rem; margin: 0 auto;" class="text-muted">
+                <i>Posted on <?php echo $dateArray['month'] . ' ' . $dateArray['day'] . ', ' . $dateArray['year']; ?></i>
+            </p>
+            <div style="text-align: center;">
+                <img src="<?php echo $row['news_image']; ?>" style="width: 40rem; margin: 0 auto;" alt="image-news">
+            </div>
+            <p class="fw-medium " style="max-width:40rem;  margin-bottom:30px; margin-top:30px; color:#474a4c; margin-left: auto; margin-right: auto; text-align:justify; text-wrap:wrap;">
+                <?php echo $row['news_content']; ?>
+            </p>
+        </section>
+        <?php
+    } 
+    mysqli_close($conn);
+    ?>
+</main>
+
 
 
 
