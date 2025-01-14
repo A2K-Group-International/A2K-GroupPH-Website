@@ -1,0 +1,100 @@
+[05-Dec-2023 13:50:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bmb68z6po77v/public_html/index.php on line 276
+[05-Dec-2023 13:50:14 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 277
+[05-Dec-2023 13:50:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 279
+[05-Dec-2023 13:50:14 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 301
+[17-Dec-2023 13:05:10 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[17-Dec-2023 13:05:10 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[17-Dec-2023 13:05:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[17-Dec-2023 13:05:10 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[17-Dec-2023 13:05:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[17-Dec-2023 13:05:13 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[17-Dec-2023 13:05:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[17-Dec-2023 13:05:13 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[26-Jan-2024 09:18:38 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[26-Jan-2024 09:18:38 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[26-Jan-2024 09:18:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[26-Jan-2024 09:18:38 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[26-Jan-2024 09:18:41 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[26-Jan-2024 09:18:41 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[26-Jan-2024 09:18:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[26-Jan-2024 09:18:41 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[19-Feb-2024 05:23:18 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[19-Feb-2024 05:23:18 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[06-Mar-2024 18:31:58 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[06-Mar-2024 18:31:58 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[06-Mar-2024 18:31:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[06-Mar-2024 18:31:58 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[06-Mar-2024 18:31:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[06-Mar-2024 18:31:59 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[06-Mar-2024 18:31:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[06-Mar-2024 18:31:59 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[06-Mar-2024 18:32:01 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[06-Mar-2024 18:32:01 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[06-Mar-2024 18:32:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[06-Mar-2024 18:32:01 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[02-Apr-2024 04:37:39 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[29-Apr-2024 08:00:35 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[29-Apr-2024 08:09:14 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[29-Apr-2024 08:25:42 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[29-Apr-2024 08:32:46 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[29-Apr-2024 08:50:59 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[29-Apr-2024 09:06:52 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[29-Apr-2024 09:23:41 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[30-Apr-2024 10:25:57 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[03-May-2024 10:48:51 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[17-May-2024 11:21:55 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[31-May-2024 11:34:17 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[01-Jun-2024 11:45:04 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[15-Jun-2024 12:47:42 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[18-Jun-2024 20:08:38 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[19-Jun-2024 15:23:40 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[29-Jun-2024 13:25:15 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/bmb68z6po77v/public_html/index.php on line 275
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 276
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/index.php on line 278
+[03-Jul-2024 02:21:33 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/bmb68z6po77v/public_html/index.php on line 300
+[13-Jul-2024 14:04:56 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 50
+[21-Jul-2024 23:33:34 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[22-Jul-2024 17:40:15 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[24-Jul-2024 01:54:05 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 40
+[24-Jul-2024 10:25:10 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[26-Jul-2024 09:03:58 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[27-Jul-2024 14:44:43 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[28-Jul-2024 09:00:20 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[31-Jul-2024 02:25:56 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[31-Jul-2024 02:40:31 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[31-Jul-2024 04:04:30 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[31-Jul-2024 04:04:31 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[31-Jul-2024 04:04:35 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[01-Aug-2024 03:50:05 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[01-Aug-2024 22:47:22 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[03-Aug-2024 10:45:36 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[05-Aug-2024 10:32:03 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[06-Aug-2024 12:13:53 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[08-Aug-2024 13:51:51 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[10-Aug-2024 13:09:59 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[10-Aug-2024 15:44:46 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[11-Aug-2024 16:25:44 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[13-Aug-2024 20:13:42 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[14-Aug-2024 16:50:38 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[15-Aug-2024 19:55:47 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[16-Aug-2024 20:18:31 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[17-Aug-2024 03:21:21 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[18-Aug-2024 19:38:40 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[20-Aug-2024 01:00:31 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[20-Aug-2024 20:31:52 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[21-Aug-2024 20:34:54 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[22-Aug-2024 13:55:22 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[23-Aug-2024 03:24:00 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[23-Aug-2024 14:26:06 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[25-Aug-2024 04:10:21 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[25-Aug-2024 18:39:09 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[25-Aug-2024 23:10:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/newscontent.php on line 55
+[26-Aug-2024 16:52:54 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
+[27-Aug-2024 04:50:54 UTC] PHP Notice:  Undefined index: id in /home/bmb68z6po77v/public_html/newscontent.php on line 48
+[28-Aug-2024 03:13:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/bmb68z6po77v/public_html/newscontent.php on line 55
+[28-Aug-2024 15:10:21 UTC] PHP Notice:  Undefined index: category in /home/bmb68z6po77v/public_html/news.php on line 59
