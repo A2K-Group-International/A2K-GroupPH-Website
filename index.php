@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="43541WcxqDONG9VvhdEuebeFnSlrAoJFDy3L01uzhrs" />
+    <meta name="google-site-verification" content="43541WcxqDONG9VvhdEuebeFnSlrAoJFDy3L01uzhrs"   />
     <!--TITLE OF WEBSITE-->
     <title>A2K Group | Transforming Services</title>
     <!--WEBSITE LOGO-->
@@ -31,11 +31,11 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDE1RYV1SK"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-TDE1RYV1SK');
+    gtag('config', 'G-TDE1RYV1SK');
 </script>
 
 <body>
@@ -46,79 +46,92 @@
 
     <!--CAROUSEL-->
     <main>
-    <section>
-        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
-            <!--CAROUSEL BUTTON-->
-            <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <!--INNER CONTAINER OF CAROUSEL-->
-            <div class="carousel-inner">
-                <!--CAROUSEL ITEM -->
-                <div class="carousel-item carousel-item-section1">
-                    <!--CAROUSEL IMAGE-->
-                    <div class="carousel-image" style="background-image: url(images/jefferson-santos-9SoCnyQmkzI.jpg);">
+        <section>
+            <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!--CAROUSEL BUTTON-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!--INNER CONTAINER OF CAROUSEL-->
+                <div class="carousel-inner">
+                    <!--CAROUSEL ITEM -->
+                    <div class="carousel-item carousel-item-section1">
+                        <!--CAROUSEL IMAGE-->
+                        <div class="carousel-image"
+                            style="background-image: url(images/jefferson-santos-9SoCnyQmkzI.jpg);">
+                        </div>
+                        <!--CAROUSEL TEXT-->
+                        <div class="container carousel_container pt-0 pt-sm-3">
+                            <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
+                            <p class="mb-1 px-3">Our international team of mentors and experts stands ready to
+                                collaborate with you in crafting tailored digital solutions that cater to your unique
+                                needs. Together we can unlock the potential of digitalization, extending its benefits to
+                                your people, processes, and platforms.</p>
+                            <!--BUTTONS-->
+                            <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
+                            <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
+                            <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                        </div>
                     </div>
-                    <!--CAROUSEL TEXT-->
-                    <div class="container carousel_container pt-0 pt-sm-3">
-                        <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
-                        <p class="mb-1 px-3">Our international team of mentors and experts stands ready to collaborate with you in crafting tailored digital solutions that cater to your unique needs. Together we can unlock the potential of digitalization, extending its benefits to your people, processes, and platforms.</p>
-                        <!--BUTTONS-->
-                        <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
-                        <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
-                        <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                    <div class="carousel-item active carousel-item-section1">
+                        <!--CAROUSEL IMAGE-->
+                        <div class="carousel-image" style="background-image: url(images/index-carousel-1.jpg);"></div>
+                        <!--CAROUSEL TEXT-->
+                        <div class="container-lg carousel_container pt-0 pt-sm-3">
+                            <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
+                            <p class="mb-1 px-3">Our international team of mentors and experts stands ready to
+                                collaborate with you in crafting tailored digital solutions that cater to your unique
+                                needs. Together we can unlock the potential of digitalization, extending its benefits to
+                                your people, processes, and platforms.</p>
+                            <!--BUTTONS-->
+                            <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
+                            <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
+                            <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item active carousel-item-section1">
-                    <!--CAROUSEL IMAGE-->
-                    <div class="carousel-image" style="background-image: url(images/index-carousel-1.jpg);"></div>
-                    <!--CAROUSEL TEXT-->
-                    <div class="container-lg carousel_container pt-0 pt-sm-3">
-                        <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
-                        <p class="mb-1 px-3">Our international team of mentors and experts stands ready to collaborate with you in crafting tailored digital solutions that cater to your unique needs. Together we can unlock the potential of digitalization, extending its benefits to your people, processes, and platforms.</p>
-                        <!--BUTTONS-->
-                        <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
-                        <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
-                        <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                    <!--CAROUSEL ITEM-->
+                    <div class="carousel-item carousel-item-section1">
+                        <!--CAROUSEL IMAGE-->
+                        <div class="carousel-image" style="background-image: url(images/index-carousel-2.jpg);">
+                        </div>
+                        <!--CAROUSEL TEXT-->
+                        <div class="container carousel_container pt-0 pt-sm-3">
+                            <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
+                            <p class="mb-1 px-3">Our international team of mentors and experts stands ready to
+                                collaborate with you in crafting tailored digital solutions that cater to your unique
+                                needs. Together we can unlock the potential of digitalization, extending its benefits to
+                                your people, processes, and platforms.</p>
+                            <!--BUTTONS-->
+                            <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
+                            <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
+                            <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                        </div>
                     </div>
-                </div>
-                <!--CAROUSEL ITEM-->
-                <div class="carousel-item carousel-item-section1">
-                    <!--CAROUSEL IMAGE-->
-                    <div class="carousel-image" style="background-image: url(images/index-carousel-2.jpg);">
-                    </div>
-                    <!--CAROUSEL TEXT-->
-                    <div class="container carousel_container pt-0 pt-sm-3">
-                        <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
-                        <p class="mb-1 px-3">Our international team of mentors and experts stands ready to collaborate with you in crafting tailored digital solutions that cater to your unique needs. Together we can unlock the potential of digitalization, extending its benefits to your people, processes, and platforms.</p>
-                        <!--BUTTONS-->
-                        <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
-                        <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
-                        <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
-                    </div>
-                </div>
-                <div class="carousel-item carousel-item-section1">
-                    <!--CAROUSEL IMAGE-->
-                    <div class="carousel-image" style="background-image: url(images/index-carousel-3.jpg);">
-                    </div>
-                    <div class="container carousel_container pt-0 pt-sm-3">
-                        <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
-                        <p class="mb-1 px-3">Our international team of mentors and experts stands ready to collaborate with you in crafting tailored digital solutions that cater to your unique needs. Together we can unlock the potential of digitalization, extending its benefits to your people, processes, and platforms.</p>
-                        <!--BUTTONS-->
-                        <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
-                        <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
-                        <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                    <div class="carousel-item carousel-item-section1">
+                        <!--CAROUSEL IMAGE-->
+                        <div class="carousel-image" style="background-image: url(images/index-carousel-3.jpg);">
+                        </div>
+                        <div class="container carousel_container pt-0 pt-sm-3">
+                            <h1 class="display-3 mb-4">WELCOME TO <span class="fw-bold">A2K GROUP</span></h1>
+                            <p class="mb-1 px-3">Our international team of mentors and experts stands ready to
+                                collaborate with you in crafting tailored digital solutions that cater to your unique
+                                needs. Together we can unlock the potential of digitalization, extending its benefits to
+                                your people, processes, and platforms.</p>
+                            <!--BUTTONS-->
+                            <a href="services" class="btn btn-sm btn-outline-light heroBtn">SEE WHAT WE DO</a>
+                            <a href="course" class="btn btn-sm btn-outline-light heroBtn">LEARN WITH US</a>
+                            <a href="work-with-us" class="btn btn-sm btn-outline-light heroBtn">WORK WITH US</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="divisions_section container py-5 border-bottom">
+        </section>
+        <section class="divisions_section container py-5 border-bottom">
             <div class="divisonHeader text-center fw-bold mb-3 mb-lg-5">
                 <h2>OUR SPECIALIZED DIVISIONS / SUBSIDIARIES</h2>
             </div>
@@ -136,7 +149,8 @@
                         <img src="./images/ANGAT LOGO PNG.png" alt="angat-logo" class="pt-3">
                     </div>
                     <div class="divisionText">
-                        Training students and employees of organizations to learn skills to expand digitization though their efforts.
+                        Training students and employees of organizations to learn skills to expand digitization though
+                        their efforts.
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
@@ -149,133 +163,133 @@
                 </div>
             </div>
         </section>
-    <!--SECTION 3 CAROUSEL-->
-    <section id="exploreServices" class="container section3Carousel">
-        <!--SECTION 3 HEADER-->
-        <div class="section3_header text-center">
-            <h2>EXPLORE <span class="fw-bold text-dark">A2K GROUP</span> TRANSFORMATIVE SERVICES</h2>
-        </div>
-        <!--CONTAINER OF SLIDESHOW-->
-        <div class="wrapper-slider mt-3">
-            <!--OWL CAROUSEL START-->
-            <div class="owl-carousel">
-                <!--CARD CONTAINER-->
-                <a href="services#software-development-services">
-                    <div class="card transformativeCardbody">
-                        <!--CARD TOP-->
-                        <div class="card-top transformativeCard">
-                            <img src="images/software.png" alt="card-picture">
-                        </div>
-                        <!--CARD BODY CONTAINER-->
-                        <div class="card-body">
-                            <!--CARD CONTENT-->
-                            <div class="card-content">
-                                <!--TITLE OF THE CARD-->
-                                <div class="card-title">Software Development</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#hardware-development-services">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/hardware.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Hardware Development</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#data-modelling-services">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/data-modelling.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Data Modelling & Analysis</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#information-systems">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/data-center.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Information Systems</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#internship-mentorship-services">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/mentorship.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Internship & Mentorship</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#training-services">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/training.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Training</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#expertise-services">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/expertise-support.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Expertise Support</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#facilitation-services">
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/facilitation.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Facilitation Services</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="services#seed-services"> 
-                    <div class="card transformativeCardbody">
-                        <div class="card-top transformativeCard">
-                            <img src="images/seed-funding.png" alt="card-picture">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-content">
-                                <div class="card-title">Seed Funding</div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+        <!--SECTION 3 CAROUSEL-->
+        <section id="exploreServices" class="container section3Carousel">
+            <!--SECTION 3 HEADER-->
+            <div class="section3_header text-center">
+                <h2>EXPLORE <span class="fw-bold text-dark">A2K GROUP</span> TRANSFORMATIVE SERVICES</h2>
             </div>
-        </div>
-    </section>
-            <section class="news_bg">
+            <!--CONTAINER OF SLIDESHOW-->
+            <div class="wrapper-slider mt-3">
+                <!--OWL CAROUSEL START-->
+                <div class="owl-carousel">
+                    <!--CARD CONTAINER-->
+                    <a href="services#software-development-services">
+                        <div class="card transformativeCardbody">
+                            <!--CARD TOP-->
+                            <div class="card-top transformativeCard">
+                                <img src="images/software.png" alt="card-picture">
+                            </div>
+                            <!--CARD BODY CONTAINER-->
+                            <div class="card-body">
+                                <!--CARD CONTENT-->
+                                <div class="card-content">
+                                    <!--TITLE OF THE CARD-->
+                                    <div class="card-title">Software Development</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#hardware-development-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/hardware.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Hardware Development</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#data-modelling-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/data-modelling.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Data Modelling & Analysis</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#information-systems">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/data-center.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Information Systems</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#internship-mentorship-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/mentorship.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Internship & Mentorship</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#training-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/training.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Training</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#expertise-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/expertise-support.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Expertise Support</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#facilitation-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/facilitation.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Facilitation Services</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="services#seed-services">
+                        <div class="card transformativeCardbody">
+                            <div class="card-top transformativeCard">
+                                <img src="images/seed-funding.png" alt="card-picture">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-content">
+                                    <div class="card-title">Seed Funding</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="news_bg">
             <div class="container py-5 text-center ">
                 <h2 class="text-white">OUR LATEST NEWS</h2>
                 <div class="row justify-content-evenly mt-3">
@@ -315,110 +329,90 @@
                 </div>
             </div>
         </section>
-    
-    <section id="partners">
-       <div class="container text-center py-5">
-         <h2 class="display-5 mb-5">OUR PARTNERS</h2>
-         <div class="row justify-content-center gy-5">
-           <div class="col-12 col-sm-6 col-md-4 partners_logo">
-             <a href="https://dhvsu.edu.ph/" target="_blank"
-               ><img
-                 src="./images/DHVSU_LOGO.png"
-                 class="img-fluid"
-                 alt="partner logo"
-             /></a>
-           </div>
-           <div class="col-12 col-sm-6 col-md-4 partners_logo">
-             <a href="https://www.facebook.com/mrsp.pampanga" target="_blank"
-               ><img
-                 src="./images/MRSP_LOGO.png"
-                 class="img-fluid"
-                 alt="partner logo"
-             /></a>
-           </div>
-           <div class="col-12 col-sm-6 col-md-4 partners_logo">
-             <a href="https://psau.edu.ph/" target="_blank"
-               ><img
-                 src="./images/PSAU_LOGO.png"
-                 class="img-fluid"
-                 alt="partner logo"
-             /></a>
-           </div>
-           <div class="col-12 col-sm-6 col-md-4 partners_logo">
-             <a href="https://holycrosscollegepampanga.com/" target="_blank"
-               ><img
-                 src="./images/HCC_LOGO.png"
-                 class="img-fluid"
-                 alt="partner logo"
-             /></a>
-           </div>
-           <div class="col-12 col-sm-6 col-md-4 partners_logo">
-             <a href="https://www.auf.edu.ph/" target="_blank"
-               ><img
-                 src="./images/auf-logo.png"
-                 class="img-fluid"
-                 alt="partner logo"
-             /></a>
-           </div>
-           <div class="col-12 col-sm-6 col-md-4 partners_logo">
-             <a href="https://a2kgroup.co.uk/" target="_blank"
-               ><img
-                 src="./images/a2k-group-international.png"
-                 class="img-fluid"
-                 alt="partner logo"
-             /></a>
-           </div>
-         </div>
-      </div>
-    </section>
 
-    <!--CONTACT SECTION-->
-    <section id="contact">
-        <div class="container-sm text-center border-top py-5">
-            <h2 class="display-2 text-dark">GET IN TOUCH</h2>
-            <!--BUTTON-->
-            <a href="contact">
-                <button type="button" class="btn btn-lg btn-outline-dark rounded-pill mb-3">MESSAGE US</button>
-            </a>
-        </div>
-        <div class="get-in-touch">
-            <div class="container">
-                <div class="row justify-content-center align-items-center text-center gy-5">
-                    <div class="col-6 col-lg-4">
-                        <i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i>
-                        <p class="small text-secondary small mt-3">HOTLINE</p>
-                        <p class="small text-white">045-4050-296</p>
+        <section id="partners">
+            <div class="container text-center py-5">
+                <h2 class="display-5 mb-5">OUR PARTNERS</h2>
+                <div class="row justify-content-center gy-5">
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://dhvsu.edu.ph/" target="_blank"><img src="./images/DHVSU_LOGO.png"
+                                class="img-fluid" alt="partner logo" /></a>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <i class="fa-brands fa-viber fa-xl" style="color: #ffffff;"></i>
-                        <p class="small text-secondary small mt-3">VIBER</p>
-                        <p class="small text-white">+63 927 881 2450</p>
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://www.facebook.com/mrsp.pampanga" target="_blank"><img
+                                src="./images/MRSP_LOGO.png" class="img-fluid" alt="partner logo" /></a>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i>
-                        <p class="small text-secondary small mt-3">WHATSAPP</p>
-                        <p class="small text-white">+63 927 881 2450</p>
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://psau.edu.ph/" target="_blank"><img src="./images/PSAU_LOGO.png"
+                                class="img-fluid" alt="partner logo" /></a>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i>
-                        <p class="small text-secondary small mt-3">EMAIL US</p>
-                        <p class="small text-white">info@a2kgroup.org</p>
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://holycrosscollegepampanga.com/" target="_blank"><img src="./images/HCC_LOGO.png"
+                                class="img-fluid" alt="partner logo" /></a>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <i class="fa-solid fa-clock fa-xl" style="color: #ffffff;"></i>
-                        <p class="small text-secondary small mt-3">BUSINESS HOURS</p>
-                        <p class="small text-white">Mon-Fri: 8AM-5PM</p>
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://www.auf.edu.ph/" target="_blank"><img src="./images/auf-logo.png"
+                                class="img-fluid" alt="partner logo" /></a>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
-                        <p class="small text-secondary small mt-3">LOCATION</p>
-                        <p class="small text-white">Jose Abad Santos Ave. Brgy, Cabalantian Bacolor, Pampanga</p>
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://www.ua.edu.ph/" target="_blank"><img src="./images/ua-logo.png"
+                                class="img-fluid" alt="partner logo" /></a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 partners_logo">
+                        <a href="https://a2kgroup.co.uk/" target="_blank"><img
+                                src="./images/a2k-group-international.png" class="img-fluid" alt="partner logo" /></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section id="contact">
+            <div class="container-sm text-center border-top py-5">
+                <h2 class="display-2 text-dark">GET IN TOUCH</h2>
+                <!--BUTTON-->
+                <a href="contact">
+                    <button type="button" class="btn btn-lg btn-outline-dark rounded-pill mb-3">MESSAGE US</button>
+                </a>
+            </div>
+            <div class="get-in-touch">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center text-center gy-5">
+                        <div class="col-6 col-lg-4">
+                            <i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i>
+                            <p class="small text-secondary small mt-3">HOTLINE</p>
+                            <p class="small text-white">045-4050-296</p>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <i class="fa-brands fa-viber fa-xl" style="color: #ffffff;"></i>
+                            <p class="small text-secondary small mt-3">VIBER</p>
+                            <p class="small text-white">+63 927 881 2450</p>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i>
+                            <p class="small text-secondary small mt-3">WHATSAPP</p>
+                            <p class="small text-white">+63 927 881 2450</p>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i>
+                            <p class="small text-secondary small mt-3">EMAIL US</p>
+                            <p class="small text-white">info@a2kgroup.org</p>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <i class="fa-solid fa-clock fa-xl" style="color: #ffffff;"></i>
+                            <p class="small text-secondary small mt-3">BUSINESS HOURS</p>
+                            <p class="small text-white">Mon-Fri: 8AM-5PM</p>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
+                            <p class="small text-secondary small mt-3">LOCATION</p>
+                            <p class="small text-white">Jose Abad Santos Ave. Brgy, Cabalantian Bacolor, Pampanga</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!--FOOTER-->
     <footer id="footer" class="w-100 py-4 flex-shrink-0"></footer>
